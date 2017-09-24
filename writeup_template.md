@@ -159,6 +159,4 @@ Here's a [link to my video result](./project_video_output.mp4)
 I think the most challenging phase was to find out points in images for perspective trasnform. 
 Thresholding was also a fundamental step without which other functions in the pipleline would not have executed. It is very difficult to perform other subsequent tasks without accurately identifying the pixels in the lane. I've handled the given video moderately, but I think we need to test it in a variety of situations. It would be nice if there were images taken in various situations, such as different weather conditions, day and night, and various road surfaces. I've only implemented it with some of the techniques I've learned in my class, but I think more research is needed.
 
-For the perspective transformation, I used a simple method to find four source points from the images of straight lines. However, this is possible because the road is assumed to be flat plane. Strictly speaking, this is not true, so I think it can be improved a little more.
-
 Finally, I should check that the my detected lane lines makes sense. To confirm that my detected lane lines are real, I found the endpoints of lines and used the distance between the points. If I could inspect the lines in a better way, I think I could get better results.

@@ -52,9 +52,6 @@ Then I stored calculated matrices and distortion coefficients in the pickle file
 
 Using stored matrices and distortion coefficients in the pickle file, I can undistort the input image.
 
-| Original          | Undistorted          |
-|-------------------|----------------------|
-|![Original][image3]|![Undistorted][image4]|
 
 ### Thresholded binary image
 

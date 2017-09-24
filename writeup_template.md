@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [image1]: ./camera_cal/calibration1.jpg "Original"
 [image2]: ./output_images/undistort_output.png "Undistorted"
 [image3]: ./test_images/test1.jpg "Test Original"
-[image4]: ./output_images/undistort_test_output.png "Test Undistorted"
+#[image4]: ./output_images/undistort_test_output.png "Test Undistorted"
 [image5]: ./output_images/combined_thresh.png "Combined Binary"
 [image6]: ./output_images/combined_thresh_roi.png "ROI"
 [image7]: ./output_images/source_points.png "Source points"
